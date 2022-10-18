@@ -1,0 +1,12 @@
+pipeline {
+agent any
+stages{
+stage('Muestra tiempo'){
+steps{
+script{
+println 'Cielos con intervalos de nubes altas, tendiendo a cielos nubosos, sin descartar chubascos ocasionales a partir de la tarde que podrían dejar depósitos de barro, más probables en las sierras. Temperaturas en ascenso. Vientos de levante en el litoral y de componente sur en el interior.'
+}
+}
+}
+}
+}
