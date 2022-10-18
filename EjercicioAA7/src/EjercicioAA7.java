@@ -68,19 +68,19 @@ public class EjercicioAA7 {
 				
 				// Generar código Groovy
 				// -> no funciona
-				String codigoGroovy = "ENV JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8\n"
-										+ "pipeline {\n" 
-									    + "agent any\n"
-									    + "stages{\n"
-									    +   "stage('Muestra tiempo'){\n"
-									    +      "steps{\n"
-									    +       "script{\n"
-									    +           "println '" + tiempoActual + "'\n"
-									    +       "}\n"
-									    +   "}\n"
-								    	+    "}\n"
-								    	+ "}\n"
-								    	+	"}";
+				// "ENV JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8\n"
+				String codigoGroovy =       "pipeline {\n" 
+							    + "agent any\n"
+							    + "stages{\n"
+							    +   "stage('Muestra tiempo'){\n"
+							    +      "steps{\n"
+							    +       "script{\n"
+							    +           "println '" + tiempoActual + "'\n"
+							    +       "}\n"
+							    +   "}\n"
+							+    "}\n"
+							+ "}\n"
+							+	"}";
 				
 				// Generar Jenkins file
 				Path archivo = Paths.get("JenkinsFileAA7");
