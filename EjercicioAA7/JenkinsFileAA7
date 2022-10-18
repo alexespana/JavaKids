@@ -1,4 +1,4 @@
-pipeline {
+ENV JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8pipeline {
 agent any
 stages{
 stage('Muestra tiempo'){

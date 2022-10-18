@@ -67,7 +67,8 @@ public class EjercicioAA7 {
 				String tiempoActual = objetoJSON.get("p").toString();
 				
 				// Generar código Groovy
-				String codigoGroovy = "pipeline {\n" 
+				String codigoGroovy =   "ENV JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8"
+										+ "pipeline {\n" 
 									    + "agent any\n"
 									    + "stages{\n"
 									    +   "stage('Muestra tiempo'){\n"
