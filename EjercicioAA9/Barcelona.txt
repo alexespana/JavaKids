@@ -1,0 +1,3 @@
+BARCELONA
+Cantidad de pasajes vendidos: 20000
+Vuelo: mañana
