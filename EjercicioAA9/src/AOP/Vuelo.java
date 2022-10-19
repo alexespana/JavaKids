@@ -1,5 +1,6 @@
+package AOP;
 
-public class Vuelo implements CalcularEstadisticas2{
+public class Vuelo implements CalcularEstadisticas{
 	private final int PRECIOPROMEDIOPASAJE = 50;
 	private String destino;
 	private int numeroPasajesVendidos;
@@ -49,7 +50,7 @@ public class Vuelo implements CalcularEstadisticas2{
 	@Override
 	public String toString() {
 		return "\nVuelo [destino=" + destino + ", numeroPasajesVendidos=" + numeroPasajesVendidos + ", salida=" + salida
-				+ "asistenciaPasajeros=" + this.calcularAsistenciaPasajeros() + "gananciaNeta=" + this.calcularGananciaNeta()+ "]";
+				+ ", asistenciaPasajeros=" + this.calcularAsistenciaPasajeros() + ", gananciaNeta=" + this.calcularGananciaNeta() + "]";
 	}
 	
 }

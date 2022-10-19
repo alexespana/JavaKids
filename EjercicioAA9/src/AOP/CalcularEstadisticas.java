@@ -1,5 +1,6 @@
+package AOP;
 
-public interface CalcularEstadisticas2 {
+public interface CalcularEstadisticas {
 	public int calcularAsistenciaPasajeros();
 	public double calcularGananciaNeta();
 }

@@ -1,7 +1,8 @@
+package AOP;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Aerolinea implements CalcularEstadisticas{
+public class Aerolinea{
 	private String nombre;
 	private String ubicacion;
 	private List<Vuelo> vuelos;
@@ -45,20 +46,7 @@ public class Aerolinea implements CalcularEstadisticas{
 		for(int i=0; i<vuelos.size(); i++) {
 			result += vuelos.get(i).toString();
 		}
-		
-		result += "\n Ganancia total=" + this.calcularGananciaTotal() + ". ";
 
 		return result;
-	}
-
-	@Override
-	public double calcularGananciaTotal() {
-		double gananciaTotal = 0;
-		
-		for(int i=0; i<this.getVuelos().size(); i++) {
-			gananciaTotal += this.vuelos.get(i).calcularGananciaNeta();
-		}
-		
-		return gananciaTotal;
 	}
 }

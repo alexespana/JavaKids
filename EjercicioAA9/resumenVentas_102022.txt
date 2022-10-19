@@ -1,8 +1,8 @@
 INFORMACION AEROLINEA
 Nombre=Iberia, ubicacion=Madrid.
 <== Vuelos próximos ==>
-Vuelo [destino=BARCELONA, numeroPasajesVendidos=20000, salida= mañanaasistenciaPasajeros=10000gananciaNeta=1000000.0]
-Vuelo [destino=BERLIN, numeroPasajesVendidos=6000, salida= mañanaasistenciaPasajeros=3000gananciaNeta=300000.0]
-Vuelo [destino=Buenos Aires, numeroPasajesVendidos=5000, salida= mañanaasistenciaPasajeros=2500gananciaNeta=250000.0]
-Vuelo [destino=Madrid, numeroPasajesVendidos=15000, salida= mañanaasistenciaPasajeros=7500gananciaNeta=750000.0]
- Ganancia total=2300000.0. 
+Vuelo [destino=BARCELONA, numeroPasajesVendidos=20000, salida= mañana, asistenciaPasajeros=10000, gananciaNeta=1000000.0]
+Vuelo [destino=BERLIN, numeroPasajesVendidos=6000, salida= mañana, asistenciaPasajeros=3000, gananciaNeta=300000.0]
+Vuelo [destino=Buenos Aires, numeroPasajesVendidos=5000, salida= mañana, asistenciaPasajeros=2500, gananciaNeta=250000.0]
+Vuelo [destino=Madrid, numeroPasajesVendidos=15000, salida= mañana, asistenciaPasajeros=7500, gananciaNeta=750000.0]
+Ganancia total: 23000. 

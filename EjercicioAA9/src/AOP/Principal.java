@@ -1,15 +1,6 @@
+package AOP;
+
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.sql.Date;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 /*
  * Ejercicio AA9 integrador
@@ -33,7 +24,21 @@ import java.util.Scanner;
  * 
  * 
  */
-public class VueloAerolinea {
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import org.springframework.beans.BeansException;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Principal {
 
 	public static void main(String[] args) throws IOException {
 		String archivoSalida = "resumenVentas_";
@@ -77,7 +82,23 @@ public class VueloAerolinea {
 		int año = LocalDate.now().getYear();
 		
 		Path archivo = Paths.get(archivoSalida + mes + año + ".txt");
-		Files.writeString(archivo, Iberia.toString(), StandardCharsets.UTF_8);
+		
+		try (AnnotationConfigApplicationContext ca = new AnnotationConfigApplicationContext(ConfiguradorAOP.class)) {
+			VueloAerolinea servicio = ca.getBean(VueloAerolinea.class);
+			int gananciaTotal = (int) servicio.calcularGananciaTotal(vuelos);
+			
+			String charGanancia = "\nGanancia total: " + gananciaTotal + ". ";
+			
+			// Llamar métodos que generen ganancias y pasajeros
+			Files.writeString(archivo, Iberia.toString() + charGanancia, StandardCharsets.UTF_8);
+			
+			
+			
+		} catch (BeansException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 
 }
