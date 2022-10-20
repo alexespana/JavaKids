@@ -1,0 +1,9 @@
+Empresa
+Nombre=Barcelona, ubicacion=Barcelona
+<==== Productos ====>
+Producto [nombre=Zapatillas, cantidadGenerada=100, costoGeneracion=1000, ganaciaEsperada=15000]
+Producto [nombre=Remeras, cantidadGenerada=50, costoGeneracion=500, ganaciaEsperada=7000]
+Producto [nombre=Pantalones, cantidadGenerada=25, costoGeneracion=750, ganaciaEsperada=18000]
+Producto [nombre=Cinturones, cantidadGenerada=10, costoGeneracion=500, ganaciaEsperada=5000]
+Con una temperatura de 21.01ºC, no se realizaron tareas administrativas.
+El stock generado hoy es de 185 productos.

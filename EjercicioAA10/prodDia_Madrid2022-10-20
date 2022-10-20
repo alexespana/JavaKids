@@ -1,0 +1,12 @@
+Empresa
+Nombre=Madrid, ubicacion=Madrid
+<==== Productos ====>
+Producto [nombre=Zapatillas, cantidadGenerada=100, costoGeneracion=1000, ganaciaEsperada=15000]
+Producto [nombre=Remeras, cantidadGenerada=50, costoGeneracion=500, ganaciaEsperada=7000]
+Producto [nombre=Pantalones, cantidadGenerada=25, costoGeneracion=750, ganaciaEsperada=18000]
+Producto [nombre=Cinturones, cantidadGenerada=10, costoGeneracion=500, ganaciaEsperada=5000]
+Producto [nombre=Camisas, cantidadGenerada=100, costoGeneracion=10000, ganaciaEsperada=15000]
+Producto [nombre=Blusas, cantidadGenerada=5, costoGeneracion=500, ganaciaEsperada=7000]
+Producto [nombre=Cardigan, cantidadGenerada=2, costoGeneracion=750, ganaciaEsperada=18000]
+Producto [nombre=Chaqueta, cantidadGenerada=10, costoGeneracion=500, ganaciaEsperada=5000]
+Con una temperatura de 16.31ºC, se realizaron tareas administrativas.
