@@ -1,0 +1,32 @@
+
+<==== Usuario ====> [
+Nombre=Carlos, fechaNacimiento=1999-05-05, pais=ESPAÑA, edad=23
+mesesAntiguedad=0, segmento=Estandar User, status=Activos, fechaLogin=2021-10-10, fechaRegistro=2020-10-10, productos=5]
+
+<==== Usuario ====> [
+Nombre=Alvaro, fechaNacimiento=1996-03-05, pais=ESPAÑA, edad=26
+mesesAntiguedad=0, segmento=Estandar User, status=Activos, fechaLogin=2021-05-10, fechaRegistro=2020-10-12, productos=5]
+
+<==== Usuario ====> [
+Nombre=Alejandro, fechaNacimiento=1997-04-06, pais=ESPAÑA, edad=25
+mesesAntiguedad=11, segmento=Estandar User, status=Activos, fechaLogin=2022-01-01, fechaRegistro=2021-11-11, productos=4]
+
+<==== Usuario ====> [
+Nombre=Gustavo, fechaNacimiento=1991-06-04, pais=ARGENTINA, edad=31
+mesesAntiguedad=1, segmento=Affiliate, status=Activos, fechaLogin=2022-09-16, fechaRegistro=2022-09-16, productos=10]
+
+<==== Usuario ====> [
+Nombre=Ivan, fechaNacimiento=1998-06-06, pais=ESPAÑA, edad=24
+mesesAntiguedad=11, segmento=Estandar User, status=Activos, fechaLogin=2021-12-12, fechaRegistro=2021-11-11, productos=3]
+
+<==== Usuario ====> [
+Nombre=Adrian, fechaNacimiento=1998-06-06, pais=ESPAÑA, edad=24
+mesesAntiguedad=11, segmento=Estandar User, status=Activos, fechaLogin=2021-12-12, fechaRegistro=2021-11-11, productos=4]
+
+<==== Usuario ====> [
+Nombre=Alba, fechaNacimiento=1994-02-04, pais=ESPAÑA, edad=28
+mesesAntiguedad=1, segmento=Affiliate, status=Activos, fechaLogin=2022-09-16, fechaRegistro=2022-09-12, productos=10]
+
+<==== Usuario ====> [
+Nombre=Daniel, fechaNacimiento=2003-05-05, pais=ESPAÑA, edad=19
+mesesAntiguedad=0, segmento=Estandar User, status=Activos, fechaLogin=2021-10-10, fechaRegistro=2021-10-10, productos=1]
