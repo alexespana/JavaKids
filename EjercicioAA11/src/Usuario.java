@@ -107,7 +107,7 @@ public class Usuario extends Persona implements Interfaz2, Interfaz3, Interfaz4{
 	@Override
 	public int calcularMesesAntiguedad(LocalDate fechaIngreso) {
 		Period periodo = Period.between(fechaIngreso, LocalDate.now());
-		return periodo.getMonths();
+		return periodo.getYears() * 12 + periodo.getMonths();
 	}
 
 	@Override

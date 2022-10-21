@@ -6,6 +6,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -90,7 +91,7 @@ public class EjercicioAA11 {
 		}
 		
 		Path archivo = Paths.get("informeDiario_" + LocalDate.now() );
-		Files.write(archivo, salidaUsuarios, StandardCharsets.UTF_8);		
+		Files.write(archivo, salidaUsuarios, StandardCharsets.UTF_8);
 	}
 
 }
