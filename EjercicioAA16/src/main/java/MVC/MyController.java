@@ -16,7 +16,7 @@ public class MyController {
 		return "noticias";
 	}
 	
-	@GetMapping("/amor")
+	@GetMapping("/amor2")
 	public String mostrarTecnologia() {
 		return "amor";
 	}

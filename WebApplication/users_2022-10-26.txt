@@ -1,0 +1,3 @@
+Usuario [nombre=Nombre_0, apellido=Apellido_0, nombreUsuario=NombreUsuario_0, email=email_0, localidad=localidad_0, fechaNacimiento=2022-10-26, password=password_0]
+Usuario [nombre=Nombre_1, apellido=Apellido_1, nombreUsuario=NombreUsuario_1, email=email_1, localidad=localidad_1, fechaNacimiento=2022-10-26, password=password_1]
+Usuario [nombre=Nombre_2, apellido=Apellido_2, nombreUsuario=NombreUsuario_2, email=email_2, localidad=localidad_2, fechaNacimiento=2022-10-26, password=password_2]
