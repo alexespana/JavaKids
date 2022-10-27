@@ -28,7 +28,17 @@
 	</c:if>
 	
 	<a href="/">Volver al home</a>
-	
-	
+		
+        <jsp:scriptlet>
+            String[] windows = {"Bicicleta", "Moto", "Coche", "Barco", "Avión"};
+            pageContext.setAttribute("windows", windows);
+        </jsp:scriptlet>
+
+        <%-- JSTL foreach tag example to loop an array in jsp --%>
+        <c:forEach var="window" items="${pageScope.windows}"> 
+            <h1>"${window}"</h1>
+        </c:forEach>
+        
+		
 </body>
 </html>

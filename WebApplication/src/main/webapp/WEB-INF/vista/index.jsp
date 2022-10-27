@@ -1,5 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="ISO-8859-1"%>
+<!-- Un taglib se utiliza para importar librerías en un código html, generalmente el core es el más utilizado, para usar
+el de sql, es igual pero ponniendo sql al final por core 
+
+¿Qué propiedades tiene un bean?
+- Propiedades privadas con métodos Getters y Setters
+- Constructor público sin parámetros - También podría tener alguno más con parámetros
+- Implementar Serializable
+-->
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
@@ -23,7 +31,6 @@
  	</ol>
 
  		<li><a href="/">Volver al home</a></li>
-
 
 </body>
 </html>
